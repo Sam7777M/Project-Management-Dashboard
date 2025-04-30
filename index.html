@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Project Management Dashboard</h1>
+        <div id="dashboard-summary"></div>
+    </header>
+    <main>
+        <section id="forms-section">
+            <form id="project-form">
+                <h2>Add Project</h2>
+                <input type="text" id="project-name" placeholder="Project Name" required>
+                <input type="date" id="project-deadline" required>
+                <select id="project-priority" required>
+                    <option value="">Priority</option>
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+                <button type="submit">Add Project</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
