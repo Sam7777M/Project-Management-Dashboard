@@ -32,7 +32,20 @@
                 <button type="submit">Add Employee</button>
             </form>
         </section>
-        
+        <section id="filter-section">
+            <select id="filter-priority">
+                <option value="">All Priorities</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            <select id="filter-status">
+                <option value="">All Statuses</option>
+                <option value="active">Active</option>
+                <option value="completed">Completed</option>
+            </select>
+            <button id="export-excel">Export to Excel</button>
+        </section>
         <section id="projects-section">
             <h2>Projects</h2>
             <table id="projects-table">
