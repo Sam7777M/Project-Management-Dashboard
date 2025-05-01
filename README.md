@@ -3,7 +3,7 @@
 To run the project, run index.html file with Live server
 **NOTE : ** please don't open directly from fileFolder because fileFolder don't run the script file, So please open with live server
 
-**NOTE :** to add more than one employee user control key in mac then click on that employee in project's Action column
+**NOTE :** to add more than one employee user **CONTROL OR SHIFT** key in mac then click on that employee in project's Action column
 
 Core Features (Must Have):
 1. Add Project - Fields: Project Name, Deadline, Priority (Low/Medium/High) : DONE
@@ -26,3 +26,12 @@ Create Project, Create Employee
 
 Filter, export, Project and Employee
 <img width="1552" alt="image" src="https://github.com/user-attachments/assets/b6cb94c8-85c7-4156-9937-7a50bd7379b5" />
+
+Excel Report
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/aa4d9349-1c7e-47b0-a038-20d6e067952d" />
+
+responsive design
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/df5fac4a-5113-408b-b1c4-cfa33cc9ce7e" />
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/a8fa593d-92f0-4b42-8dc5-91fdeffcf6c8" />
+
+
