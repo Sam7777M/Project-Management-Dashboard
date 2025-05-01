@@ -126,6 +126,20 @@ function assignEmployees(projectId, selectElem) {
 document.getElementById(id).onchange = renderProjects;
 });
 
+function exportToExcel() {
+    let csv = 'Name,Deadline,Priority,Assigned Employees,Status\n';
+    projects.forEach(p => {
+        csv += `${p.name},${p.deadline},${p.priority},"${getEmployeeNames(p.employeeIds)}",${p.status}\n`;
+    });
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'projectReport.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+}
+document.getElementById('export-excel').onclick = exportToExcel;
 
 loadData();
 renderEmployees();
